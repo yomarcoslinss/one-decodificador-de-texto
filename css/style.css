@@ -6,7 +6,7 @@ body {
     background-color: #F3F5FC;
 }
 
-.header {
+.container__header {
     height: 6rem;
     border: 1px solid black;
     padding: 24px 16px;
