@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.header {
+    height: 6rem;
+    border: 1px solid black;
+    padding: 24px 16px;
+}
