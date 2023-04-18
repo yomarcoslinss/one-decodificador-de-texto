@@ -1,13 +1,26 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 * {
     box-sizing: border-box;
+    font-family: "Inter", Helvetica, sans-serif
 }
 
 body {
     background-color: #F3F5FC;
 }
 
+/*
+*
+* CABEÇALHO
+*
+*/
+
 .container__header {
     height: 6rem;
     border: 1px solid black;
     padding: 24px 16px;
 }
+
