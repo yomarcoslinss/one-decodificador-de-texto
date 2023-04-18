@@ -1,0 +1,1 @@
+# one-decodificador-de-texto
