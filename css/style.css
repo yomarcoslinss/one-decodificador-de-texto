@@ -45,7 +45,6 @@ body {
 
 .operacoes-criptografia__entrada {
     padding: 24px 0px;
-    text-align: center;
 
 }
 
@@ -105,7 +104,7 @@ body {
 }
 
 .operacoes-criptografia__botoes__descriptografar {
-    background-color: #F3F5FC;
+    background-color: #D8DFE8;
     color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 1.5rem;
