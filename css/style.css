@@ -85,7 +85,7 @@ body {
 }
 
 .operacoes-criptografia__info p {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #343A40;
 }
 
@@ -135,8 +135,8 @@ body {
 
 .operacoes-criptografia__saida__box  p{
     color: #495057;
-    width: 100%;
     line-break: anywhere;
+    font-size: 1rem;
 }
 
 .operacoes-criptografia__saida__box img {
