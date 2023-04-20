@@ -29,6 +29,7 @@
 
     .operacoes-criptografia__saida {
         padding: 40px 15px;
+
     }
 }
 
@@ -43,21 +44,31 @@
 
 
     .operacoes-criptografia__entrada textarea {
-        margin-bottom: 500px;
+        margin-bottom: 7rem;
+        width: 50rem;
     }
 
-    .container__main {
-        flex-direction: row;
-      }
-      
-      .operacoes-criptografia__entrada {
-        width: 80%;
-        padding-right: 1rem;
-      }
-      
-      .operacoes-criptografia__saida {
-        width: 20%;
-      }
+    .operacoes-criptografia__entrada textarea:focus{
+        outline: none;
+    }
+
+    .operacoes-criptografia__saida {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        width: 400px;
+        height: 36.5rem;
+        padding: 20px;
+    }
+
+    .operacoes-criptografia__botoes {
+        width: calc(100% - 450px);
+    }
+
+    .operacoes-criptografia__botoes__criptografar, .operacoes-criptografia__botoes__descriptografar {
+        width: 30rem;
+    }
+
 
     .operacoes-criptografia__saida__box img {
         display: inline-block;
