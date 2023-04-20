@@ -1,0 +1,67 @@
+/*
+*
+*   TABLET:
+*
+*/
+
+@media screen and (min-width: 768px) {
+
+    .operacoes-criptografia__info p {
+        font-size: 0.8rem;
+    }
+
+    .operacoes-criptografia__botoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .operacoes-criptografia__botoes__criptografar {
+        width: 50%;
+        margin-right: 2%;
+        margin-bottom: 0.5rem;
+    }
+
+    .operacoes-criptografia__botoes__descriptografar {
+        width: 50%;
+    }
+
+    .operacoes-criptografia__saida {
+        padding: 40px 15px;
+    }
+}
+
+
+/*
+*
+*   NOTEBOOK:
+*
+*/
+
+@media screen and (min-width: 1024px) {
+
+
+    .operacoes-criptografia__entrada textarea {
+        margin-bottom: 500px;
+    }
+
+    .container__main {
+        flex-direction: row;
+      }
+      
+      .operacoes-criptografia__entrada {
+        width: 80%;
+        padding-right: 1rem;
+      }
+      
+      .operacoes-criptografia__saida {
+        width: 20%;
+      }
+
+    .operacoes-criptografia__saida__box img {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
