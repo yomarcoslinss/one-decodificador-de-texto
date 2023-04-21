@@ -55,7 +55,7 @@
 
     .operacoes-criptografia__entrada textarea {
         margin-bottom: 7rem;
-        width: 50rem;
+        width: 30rem;
     }
 
     .operacoes-criptografia__saida {
@@ -90,11 +90,71 @@
 
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1090px) {
+
+    .operacoes-criptografia__entrada textarea {
+        width: 35rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .operacoes-criptografia__entrada textarea {
+        width: 50rem;
+        margin-bottom: 12rem;
+    }
+
+    .operacoes-criptografia__saida {
+        height: 42.5rem;
+    }
 
     .container__rodape {
         position: absolute;
         bottom: 0;
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    
+    .operacoes-criptografia__entrada textarea {
+        margin-bottom: 40rem;
+    }
+
+    .operacoes-criptografia__botoes {
+        width: 65%;
+    }
+
+    .operacoes-criptografia__botoes__criptografar, .operacoes-criptografia__botoes__descriptografar {
+        width: 50%;
+        height: 8rem;
+        border-radius: 30px;
+        font-size: 1.5rem;
+    }
+
+    .operacoes-criptografia__saida {
+        height: 78rem;
+        width: 45rem;
+    }
+
+    .container__rodape {
+        height: 4rem;
+    }
+
+    .container__rodape a, p {
+        font-size: 1.5rem;
+    }
+
+
+
+    .container__rodape svg {
+        transform: scale(2);
+        margin: 0 1.2rem 0 0.7rem;
+    }
+
+    .container__rodape .icone {
+        height: 1.6rem;
     }
 }
