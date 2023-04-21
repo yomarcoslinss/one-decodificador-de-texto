@@ -89,3 +89,12 @@
     }
 
 }
+
+@media screen and (min-width: 1600px) {
+
+    .container__rodape {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
