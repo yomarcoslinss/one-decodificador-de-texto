@@ -12,12 +12,11 @@ function criptografar() {
         elementosOcultos[i].style.display = "none";
     }
 
-    entradaOperacao = selecionarTextArea.value;
-    
-    entradaOperacao = entradaOperacao.replace(/e/g, "enter").replace(/i/g, "imes")
+    entradaOperacao = selecionarTextArea.value;    
 
-    boxSaida.innerHTML = entradaOperacao
+    boxSaida.innerHTML = entradaOperacao.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
 
 }
+
 
 btnCriptografar.onclick = criptografar;
