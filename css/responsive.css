@@ -67,8 +67,7 @@
         padding: 20px;
         overflow-y: scroll;
         scrollbar-width: none;
-        justify-content: flex-start;
-        text-align: start;
+        
     }
 
     .operacoes-criptografia__saida::-webkit-scrollbar {
