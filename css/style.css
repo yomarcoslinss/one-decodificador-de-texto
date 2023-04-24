@@ -122,13 +122,13 @@ body {
     border-radius: 32px;
     width: 100%;
     margin-bottom: 3rem;
-    padding: 20px 10px;
+    padding: 20px;
 }
 
 
 .operacoes-criptografia__saida__box  h3{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -139,6 +139,17 @@ body {
 }
 
 .operacoes-criptografia__saida__box img {
+    display: none;
+}
+
+.operacoes-criptografia__saida__box #btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 1rem;
+    color: #0A3871;
+    background-color: white;
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 15px;
     display: none;
 }
 
