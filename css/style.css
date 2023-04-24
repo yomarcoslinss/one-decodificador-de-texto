@@ -125,7 +125,6 @@ body {
     padding: 20px;
 }
 
-
 .operacoes-criptografia__saida__box  h3{
     font-weight: 700;
     font-size: 1.4rem;
@@ -142,7 +141,7 @@ body {
     display: none;
 }
 
-.operacoes-criptografia__saida__box #btn-copiar {
+.operacoes-criptografia__saida__btn-copiar #btn-copiar {
     border: 1px solid #0A3871;
     border-radius: 1rem;
     color: #0A3871;
@@ -151,6 +150,7 @@ body {
     width: 100%;
     padding: 15px;
     display: none;
+    justify-content: center;
 }
 
 /*
