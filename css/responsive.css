@@ -162,12 +162,3 @@
         height: 1.6rem;
     }
 }
-
-@media screen and (min-height: 708px) {
-
-    .container__rodape {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-}
