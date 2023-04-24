@@ -62,7 +62,7 @@
         position: absolute;
         top: 20px;
         right: 50px;
-        width: 400px;
+        width: 320px;
         height: 36.5rem;
         padding: 20px;
         overflow-y: scroll;
@@ -88,6 +88,7 @@
     .operacoes-criptografia__saida__box img {
         display: inline-block;
         text-align: center;
+        width: 18rem;
     }
 
 }
