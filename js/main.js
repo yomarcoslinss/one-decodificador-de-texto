@@ -6,14 +6,17 @@ var entradaOperacao = "";
 var saidaOperacao = document.querySelector("#saida-operacao");
 
 
-function criptografar() {
+
+btnCriptografar.onclick = function () {
 
     for (i = 0; i < elementosOcultos.length; i++) {
         elementosOcultos[i].style.display = "none";
     }
 
+    var btnCopiar = document.querySelector("#btn-copiar");
+    btnCopiar.style.display = "flex"
     var boxSaida = document.querySelector("#box-saida")
-    boxSaida.style.justifyContent = "flex-start"
+    boxSaida.style.justifyContent = "space-between"
     boxSaida.style.textAlign = "start";
 
     entradaOperacao = selecionarTextArea.value;
@@ -22,16 +25,18 @@ function criptografar() {
 
     saidaOperacao.innerHTML = entradaOperacao;
 
-}
+};
 
-function descriptografar() {
+btnDescriptografar.onclick = function () {
 
     for (i = 0; i < elementosOcultos.length; i++) {
         elementosOcultos[i].style.display = "none";
     }
 
+    var btnCopiar = document.querySelector("#btn-copiar");
+    btnCopiar.style.display = "block"
     var boxSaida = document.querySelector("#box-saida")
-    boxSaida.style.justifyContent = "flex-start"
+    boxSaida.style.justifyContent = "space-between"
     boxSaida.style.textAlign = "start";
 
 
@@ -41,8 +46,4 @@ function descriptografar() {
 
     saidaOperacao.innerHTML = entradaOperacao;
 
-}
-
-
-btnCriptografar.onclick = criptografar;
-btnDescriptografar.onclick = descriptografar;
+};
