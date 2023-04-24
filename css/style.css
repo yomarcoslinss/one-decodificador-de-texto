@@ -103,12 +103,28 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.operacoes-criptografia__botoes__criptografar:active {
+    background-color: #0e4c99;
+}
+
+
 .operacoes-criptografia__botoes__descriptografar {
-    background-color: #D8DFE8;
+    background-color: #e6ecf3;
     color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 1.5rem;
     padding: 1.5rem;
+}
+
+.operacoes-criptografia__botoes__descriptografar:active {
+    background-color: #ffffff;
+}
+
+.operacoes-criptografia__botoes__criptografar:hover,
+.operacoes-criptografia__botoes__descriptografar:hover,
+.operacoes-criptografia__saida__btn-copiar #btn-copiar:hover {
+    cursor: pointer;
+
 }
 
 .operacoes-criptografia__saida {
@@ -125,13 +141,13 @@ body {
     padding: 20px;
 }
 
-.operacoes-criptografia__saida__box  h3{
+.operacoes-criptografia__saida__box h3 {
     font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.operacoes-criptografia__saida__box  p{
+.operacoes-criptografia__saida__box p {
     color: #495057;
     line-break: anywhere;
     font-size: 1rem;
@@ -153,6 +169,14 @@ body {
     justify-content: center;
 }
 
+.operacoes-criptografia__saida__btn-copiar #btn-copiar:hover {
+    cursor: pointer;
+}
+
+.operacoes-criptografia__saida__btn-copiar #btn-copiar:active {
+    box-shadow: 0 0 5px #0A3871;
+}
+
 /*
 *
 *   FOOTER:
@@ -162,7 +186,7 @@ body {
 .container__rodape {
     display: flex;
     flex-direction: row;
-    background-color:#0A3871 ;
+    background-color: #0A3871;
     color: white;
     font-size: 0.7rem;
     padding: 1rem 0;
@@ -182,7 +206,7 @@ body {
 }
 
 .container__rodape .texto {
-    display:none;
+    display: none;
 }
 
 .container__rodape a {
