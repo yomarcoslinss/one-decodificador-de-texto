@@ -1,7 +1,6 @@
 var btnCriptografar = document.querySelector("#btn-criptografar");
 var btnDescriptografar = document.querySelector("#btn-descriptografar");
 var btnCopiar = document.querySelector("#btn-copiar");
-
 var elementosOcultos = document.querySelectorAll(".ocultar");
 var selecionarTextArea = document.querySelector("#entrada-texto");
 var entradaOperacao = "";
@@ -9,6 +8,13 @@ var saidaOperacao = document.querySelector("#saida-operacao");
 
 
 
+// Validador de texto
+selecionarTextArea.addEventListener("input", function () {
+    var textoValidado = selecionarTextArea.value.toLowerCase().replace(/[^a-z\s]/g, "");
+    selecionarTextArea.value = textoValidado;
+});
+
+// Função do botão "Criptografar"
 btnCriptografar.onclick = function () {
 
     for (i = 0; i < elementosOcultos.length; i++) {
@@ -28,6 +34,7 @@ btnCriptografar.onclick = function () {
 
 };
 
+// Função do botão "Descriptografar"
 btnDescriptografar.onclick = function () {
 
     for (i = 0; i < elementosOcultos.length; i++) {
@@ -38,7 +45,7 @@ btnDescriptografar.onclick = function () {
     boxSaida.style.justifyContent = "space-between"
     boxSaida.style.textAlign = "start";
     btnCopiar.style.display = "flex"
-    
+
     entradaOperacao = selecionarTextArea.value;
 
     entradaOperacao = entradaOperacao.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
@@ -47,6 +54,6 @@ btnDescriptografar.onclick = function () {
 
 };
 
-btnCopiar.onclick = function() {
+btnCopiar.onclick = function () {
     navigator.clipboard.writeText(entradaOperacao);
 };
