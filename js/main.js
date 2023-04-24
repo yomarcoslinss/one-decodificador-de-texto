@@ -17,40 +17,52 @@ selecionarTextArea.addEventListener("input", function () {
 // Função do botão "Criptografar"
 btnCriptografar.onclick = function () {
 
-    for (i = 0; i < elementosOcultos.length; i++) {
-        elementosOcultos[i].style.display = "none";
+    if (selecionarTextArea.value != "") {
+
+        for (i = 0; i < elementosOcultos.length; i++) {
+            elementosOcultos[i].style.display = "none";
+        }
+
+        var boxSaida = document.querySelector("#box-saida")
+        boxSaida.style.justifyContent = "space-between"
+        boxSaida.style.textAlign = "start";
+        btnCopiar.style.display = "flex"
+
+        entradaOperacao = selecionarTextArea.value;
+
+        entradaOperacao = entradaOperacao.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
+
+        saidaOperacao.innerHTML = entradaOperacao;
+
+    } else {
+        window.alert("Insira uma mensagem no campo para criptografar")
     }
-
-    var boxSaida = document.querySelector("#box-saida")
-    boxSaida.style.justifyContent = "space-between"
-    boxSaida.style.textAlign = "start";
-    btnCopiar.style.display = "flex"
-
-    entradaOperacao = selecionarTextArea.value;
-
-    entradaOperacao = entradaOperacao.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
-
-    saidaOperacao.innerHTML = entradaOperacao;
 
 };
 
 // Função do botão "Descriptografar"
 btnDescriptografar.onclick = function () {
 
-    for (i = 0; i < elementosOcultos.length; i++) {
-        elementosOcultos[i].style.display = "none";
+    if (selecionarTextArea.value != "") {
+
+        for (i = 0; i < elementosOcultos.length; i++) {
+            elementosOcultos[i].style.display = "none";
+        }
+
+        var boxSaida = document.querySelector("#box-saida")
+        boxSaida.style.justifyContent = "space-between"
+        boxSaida.style.textAlign = "start";
+        btnCopiar.style.display = "flex"
+
+        entradaOperacao = selecionarTextArea.value;
+
+        entradaOperacao = entradaOperacao.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
+
+        saidaOperacao.innerHTML = entradaOperacao;
+
+    } else {
+        window.alert("Insira uma mensagem no campo para descriptografar")
     }
-
-    var boxSaida = document.querySelector("#box-saida")
-    boxSaida.style.justifyContent = "space-between"
-    boxSaida.style.textAlign = "start";
-    btnCopiar.style.display = "flex"
-
-    entradaOperacao = selecionarTextArea.value;
-
-    entradaOperacao = entradaOperacao.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
-
-    saidaOperacao.innerHTML = entradaOperacao;
 
 };
 
