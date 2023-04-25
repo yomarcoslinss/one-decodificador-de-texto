@@ -45,7 +45,7 @@ Temos um período de tempo de quatro semanas para desenvolver o projeto e vamos 
 <br/>
 
 ## Demonstração
-Demonstração do projeto release 0.1.0
+Demonstração do projeto release <a href="https://github.com/yomarcoslinss/one-decodificador-de-texto/releases/tag/v0.1.0">v0.1.0</a>
 
 <details>
 <summary>Mobile</summary>
