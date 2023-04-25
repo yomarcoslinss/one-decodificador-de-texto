@@ -27,6 +27,7 @@ btnCriptografar.onclick = function () {
         boxSaida.style.justifyContent = "space-between"
         boxSaida.style.textAlign = "start";
         btnCopiar.style.display = "flex"
+        btnCopiar.textContent = "Copiar"
 
         entradaOperacao = selecionarTextArea.value;
 
@@ -53,6 +54,7 @@ btnDescriptografar.onclick = function () {
         boxSaida.style.justifyContent = "space-between"
         boxSaida.style.textAlign = "start";
         btnCopiar.style.display = "flex"
+        btnCopiar.textContent = "Copiar"
 
         entradaOperacao = selecionarTextArea.value;
 
@@ -68,4 +70,5 @@ btnDescriptografar.onclick = function () {
 
 btnCopiar.onclick = function () {
     navigator.clipboard.writeText(entradaOperacao);
+    btnCopiar.textContent = "Copiado"
 };
