@@ -36,3 +36,27 @@ Temos um período de tempo de quatro semanas para desenvolver o projeto e vamos 
 - No Pausado estarão os elementos que você começou a desenvolver, mas precisou parar por algum motivo.
 - Por fim, a coluna Concluído terá os elementos já concluídos.
 
+<details>
+<summary>Quadro no Trello</summary>
+
+![quadro-trello](https://user-images.githubusercontent.com/111458338/234139071-ece5b293-d170-42ef-b3fd-f540f8f5d135.jpeg)
+</details>
+
+<br/>
+
+## Demonstração
+Demonstração do projeto release 0.1.0
+
+<details>
+<summary>Mobile</summary>
+
+![img2](https://user-images.githubusercontent.com/111458338/234139068-163f2e33-1e87-4980-b5cb-58933cbf30d2.jpeg)
+</details>
+<details>
+<summary>Desktop</summary>
+
+
+![img1](https://user-images.githubusercontent.com/111458338/234139070-d8e0e234-0167-4e08-95fc-d951d9a72a3b.jpeg)
+
+
+</div>
